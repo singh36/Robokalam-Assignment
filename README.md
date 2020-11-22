@@ -5,4 +5,5 @@ Technology :HTML,CSS,Java Script
 
 2. Design a simple form and connect to backend database
 Technology :Java,Swing,JDBC,My SQL 
+3. Make a workflow chart for python-based web applications using Django or Flask based on your understanding after research
 
