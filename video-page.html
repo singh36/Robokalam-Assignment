@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+<style>
+video {
+	width: 100%;
+	max-width: 640px;
+	align:center;
+}
+/* Space out content a bit */
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color:blue;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header, .marketing {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 40px;
+}
+
+/* Customize container */
+@media ( min-width : 768px) {
+	.container {
+		max-width: 730px;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+	}
+}
+
+.container-narrow>hr {
+	margin: 10px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	text-align: center;
+	border-bottom: 0px solid #e5e5e5;
+}
+.jumbotron1{
+	text-align: center;
+	border-bottom: 0px solid #e5e5e5;
+	height:400px;
+	width:300px;
+   padding-top: 10px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+	/* Remove the padding we set earlier */
+	.header, .marketing, .footer {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	/* Space out the masthead */
+	.header {
+		margin-bottom: 30px;
+	}
+	/* Remove the bottom border on the jumbotron for visual effect */
+	.jumbotron {
+		border-bottom: 0;
+	}
+	.jumbotron1{
+		border-bottom: 0;
+	}
+}
+</style>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="Askbootstrap">
+      <meta name="author" content="Askbootstrap">
+      <title>Live Class Template</title>
+      <!-- Favicon Icon -->
+      <link rel="icon" type="image/png" href="img/favicon.png">
+      <!-- Bootstrap core CSS-->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom fonts for this template-->
+      <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+      <!-- Custom styles for this template-->
+      <link href="css/osahan.css" rel="stylesheet">
+      <!-- Owl Carousel -->
+      <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css">
+   </head>
+   <body id="page-top">
+
+     
+      <div id="wrapper">
+         <!-- Sidebar -->
+         
+         <div id="content-wrapper">
+            <div class="container-fluid pb-0">
+               <div class="video-block section-padding">
+                  <div class="row">
+                     <div class="col-md-8">
+                        <div class="single-video-left">
+                           <div class="container">
+		
+
+
+
+		<div class="jumbotron">
+
+			<p>
+				<video id="myVideo"  controls autoplay >
+					<source src="vid.mp4" type="video/mp4">
+				</video>
+			</p>
+			<p>
+				<input type="text" class="form-control" value="Instructor Name"
+					id="streamName" placeholder="Type stream name">
+			</p>
+			<p>
+				<button onclick="startPlaying()" class="btn btn-info"
+					id="myVideo">Start Playing</button>
+				<button onclick="stopPlaying()" class="btn btn-info"
+               id="myVideo">Stop Playing</button>
+               <a href="C:\Users\ASUS\Desktop\Front end\VIDOE-master\Live Class\thanyou.html"><button  class="btn btn-info"
+					id="stop_play_button">Leave</button></a>
+
+			</p>
+		</div>
+		
+	</div>
+                           <div class="single-video-title box mb-3">
+                              <h2><a href="#"><h2>Subject Name</h2></a></h2>
+                             
+                           </div>
+                           <div class="single-video-author box mb-3">
+                             
+                              <img class="img-fluid" src="img/s4.jpg" alt="">
+                              <p><a href="#"><strong>Instructor name</strong></a> <span title="" data-placement="top" data-toggle="tooltip" data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></span></p>
+                              
+                           </div>
+                           
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="single-video-right">
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <div class="adblock">
+                                    <h1 style="color:red">Participants</h1>
+                                 </div>
+                                 
+                              </div>
+                              <div class="col-md-12">
+                                 <div class="video-card video-card-list">
+                                    
+		<div class="jumbotron1">
+
+			<p>
+				<video id="myVideo" autoplay controls playsinline >
+					<source src="vid.mp4" type="video/mp4">
+				</video>
+
+				
+			</p>
+			<p>
+				<input type="text" class="form-control" value="Student Name"
+					id="streamName" placeholder="Type stream name">
+			</p>
+			<form action="#" id="usrform">
+				Name: <input type="text" name="usrname">
+				<input type="submit">
+			  </form>
+			  <br>
+			  <textarea rows="4" cols="50" name="comment" form="usrform">
+			  Enter text here...</textarea>
+			  
+		
+                                 
+                                    
+		<div class="jumbotron1">
+
+			<p>
+				<video id="myVideo" autoplay controls playsinline >
+					<source src="vid.mp4" type="video/mp4">
+				</video>
+			</p>
+			<input type="range" value="0" id="scrub" />
+			<p>
+				<input type="text" class="form-control" value="Student Name"
+					id="streamName" placeholder="Type stream name">
+			</p>
+			<form action="#" id="usrform">
+				Name: <input type="text" name="usrname">
+				<input type="submit">
+			  </form>
+			  <br>
+			  <textarea rows="4" cols="50" name="comment" form="usrform">
+			  Enter text here...</textarea>
+			  
+		
+                                 
+                                    
+		<div class="jumbotron1">
+
+			<p>
+				<video id="remoteVideo" autoplay controls playsinline ></video>
+			</p>
+			<p>
+				<input type="text" class="form-control" value="Student Name"
+					id="streamName" placeholder="Type stream name">
+			</p>
+			<form action="#" id="usrform">
+				Name: <input type="text" name="usrname">
+				<input type="submit">
+			  </form>
+			  <br>
+			  <textarea rows="4" cols="50" name="comment" form="usrform">
+			  Enter text here...</textarea>
+			  
+		
+                                  
+                                
+                                    
+		<div class="jumbotron1">
+
+			<p>
+				<video id="remoteVideo" autoplay controls playsinline ></video>
+			</p>
+			<p>
+				<input type="text" class="form-control" value="Student Name"
+					id="streamName" placeholder="Type stream name">
+			</p>
+			<form action="#" id="usrform">
+				Name: <input type="text" name="usrname">
+				<input type="submit">
+			  </form>
+			  <br>
+			  <textarea rows="4" cols="50" name="comment" form="usrform">
+			  Enter text here...</textarea>
+			  
+		
+                                    
+                              
+                                    
+		<div class="jumbotron1">
+
+			<p>
+				<video id="remoteVideo" autoplay controls playsinline ></video>
+			</p>
+			<p>
+				<input type="text" class="form-control" value="Student Name"
+					id="streamName" placeholder="Type stream name">
+			</p>
+			<form action="#" id="usrform">
+				Name: <input type="text" name="usrname">
+				<input type="submit">
+			  </form>
+			  <br>
+			  <textarea rows="4" cols="50" name="comment" form="usrform">
+			  Enter text here...</textarea>
+			  
+			
+		
+                                    
+                               
+                                    
+		<div class="jumbotron1">
+
+			<p>
+				<video id="remoteVideo" autoplay controls playsinline ></video>
+			</p>
+			<p>
+				<input type="text" class="form-control" value="Student Name"
+					id="streamName" placeholder="Type stream name">
+			</p>
+			<form action="#" id="usrform">
+				Name: <input type="text" name="usrname">
+				<input type="submit">
+			  </form>
+			  <br>
+			  <textarea rows="4" cols="50" name="comment" form="usrform">
+			  Enter text here...</textarea>
+			  
+		
+                                    
+                                 
+                                
+                                    
+		<div class="jumbotron1">
+
+			<p>
+				<video id="remoteVideo" autoplay controls playsinline ></video>
+			</p>
+			<p>
+				<input type="text" class="form-control" value="Student Name"
+					id="streamName" placeholder="Type stream name">
+			</p>
+			
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- /.container-fluid -->
+            <!-- Sticky Footer -->
+           
+         </div>
+         <!-- /.content-wrapper -->
+      </div>
+      <!-- /#wrapper -->
+      <!-- Scroll to Top Button-->
+      <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+      </a>
+      <!-- Logout Modal-->
+      <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <script>
+			 var vid = document.getElementById("myVideo");
+
+			function startPlaying() {
+ 			   vid.play();
+						}
+
+function stopPlaying() {
+    vid.pause();
+}
+		 </script>
+	
+      <!-- Bootstrap core JavaScript-->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- Core plugin JavaScript-->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <!-- Owl Carousel -->
+      <script src="vendor/owl-carousel/owl.carousel.js"></script>
+      <!-- Custom scripts for all pages-->
+	  <script src="js/custom.js"></script>
+	  
+   </body>
+
+</html>
